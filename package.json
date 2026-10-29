@@ -1,0 +1,22 @@
+{
+  "name": "create-yoru",
+  "version": "1.0.8",
+  "description": "Simple react boilerplate with bun",
+  "type": "module",
+  "author": "yoru",
+  "license": "MIT",
+  "bin": {
+    "create-yoru": "cli.js",
+    "yoru": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "commands",
+    "template",
+    "!template/node_modules",
+    "!template/dist"
+  ],
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}
