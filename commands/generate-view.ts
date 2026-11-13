@@ -101,7 +101,7 @@ export default function ${pascalName}Page() {
     if (isProtected) {
       // Pastikan import ProtectedRoutes sudah ada jika belum ada di template
       if (!routeCode.includes("ProtectedRoutes")) {
-        routeCode = `import { ProtectedRoutes } from "./protected-routes";\n` + routeCode;
+        routeCode = `import { ProtectedRoutes } from "@yoru-js/core";\n` + routeCode;
       }
 
       // Indentasi 6 & 8 spasi agar rapi

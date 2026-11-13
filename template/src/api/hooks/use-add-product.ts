@@ -1,4 +1,4 @@
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { useMutation, useQueryClient } from "@yoru-js/core";
 import { addProduct } from "../client/product";
 import type { AddProductRequest } from "../types/product";
 import {CACHE} from "../cache"

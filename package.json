@@ -1,6 +1,6 @@
 {
   "name": "create-yoru",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Simple react boilerplate with bun",
   "type": "module",
   "author": "yoru",

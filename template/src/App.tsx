@@ -1,9 +1,9 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider } from "@yoru-js/core";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { RouterProvider } from "react-router-dom";
 import { theme } from "@/style/theme";
 import { router } from "@/routes";
-import { AuthProvider } from "@/context/auth-context";
+import { AuthProvider } from "@yoru-js/core";
 
 const queryClient = new QueryClient();
 

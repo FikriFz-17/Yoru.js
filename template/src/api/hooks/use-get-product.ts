@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+import { useQuery } from "@yoru-js/core";
 import { getProducts } from "../client/product";
 import type { PaginationParams } from "../query-params";
 import {CACHE} from "../cache";
