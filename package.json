@@ -1,6 +1,6 @@
 {
   "name": "create-yoru",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Simple react boilerplate with bun",
   "type": "module",
   "author": "yoru",
@@ -14,7 +14,8 @@
     "commands",
     "template",
     "!template/node_modules",
-    "!template/dist"
+    "!template/dist",
+    "!template/bun.lock"
   ],
   "dependencies": {
     "picocolors": "^1.1.1"
